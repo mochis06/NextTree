@@ -1,0 +1,7 @@
+---
+deployment:
+tasks:
+  - export DEPLOYPATH=/home/mtsyatam/public_html/
+  - /bin/cp index.html $DEPLOYPATH
+  - /bin/cp styke.css $DEPLOYPATH
+  - /bin/cp -R img $DEPLOYPATH
